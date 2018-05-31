@@ -1,0 +1,194 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+body, html {
+    height: 100%;
+}
+header, nav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+	}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("../img/background1.png");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 120px;
+}
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+header {
+	font-size: 22px;
+	letter-spacing: 0.0434783em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.956px;
+   	font-weight: bold;
+    float: left;
+    margin-left: 200px;
+    margin-top: 58px;
+}
+header a {
+	text-decoration: none;
+	color: #312023;
+}
+header a:hover {
+	color: #777;
+}
+nav {
+	width: 1200px;
+	height: 120px;
+	
+}
+nav li {
+	display: inline;
+	float: left;
+	font-size: 13px;
+	font-weight: 600;
+	height: 15px;
+	letter-spacing: 1px;
+	padding: 6.5px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-right: 15px;
+	position: relative;
+	top: 40px;
+	left: 500px;
+}
+nav li a {
+	text-decoration: none;
+	color: #777;
+}
+nav li a:hover {
+	color: black;
+}
+main {
+	width: 540px;
+	margin: 50px;
+	padding: 50px 0 0 80px;
+}
+main img {
+	height: 200px;
+	width: 180px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+.body {
+	color: #121212;
+	font-weight: bold;
+}
+.body h1 {
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: -3px;
+}
+.body p {
+	line-height: 19.2px;
+	font-size: 12px;
+	 letter-spacing: 0.5px;
+}
+footer {
+	width: 1120px;
+	height: 50px;
+	background: #e3e3e3;
+	position:fixed;
+    bottom:0;
+}
+footer ul {
+	margin-left: 107px;
+}
+footer li {
+	margin: 20px 2px 30px 1px;
+	padding-right: 10px;
+}
+footer a {
+	text-decoration: none;
+	color: #777;
+}
+footer a:hover {
+	color: black;
+}
+footer li {
+	display: inline;
+}
+.container_12{
+	margin-top: 120px;
+}
+.main {
+	margin: 30px 0;
+}
+.form_body { 
+	margin-top: 160px;
+}
+#vit {
+	background: url(../img/vit.jpg);
+	text-indent: -9999px;
+	width: 190px;
+	height: 106px;
+}
+#tdt {
+	background: url(../img/tdt.jpg);
+	text-indent: -9999px;
+	width: 190px;
+	height: 111px;
+}
+#stackroute {
+	background: url(../img/stackroute.jpg);
+	text-indent: -9999px;
+	width: 190px;
+	height: 123px;
+}
+#boeing {
+	background: url(../img/boeing.jpg);
+	text-indent: -9999px;
+	width: 200px;
+	height: 120px;
+}
+.form_body h2 {
+	margin-left: 60px;
+}
+form li {
+	list-style: none;
+	margin-left: 20px;
+}
+.form_body label {
+	display: block;
+	padding: 4px;
+	margin-top: 15px;
+}
+textarea {
+	width: 346.5px;
+	height: 80px;
+}
+form input {
+	width: 147.84px;
+	padding: 12px;
+}
+#email {
+	width: 326.5px;
+	margin-bottom: 4px;
+	margin-top: 6px;
+}
+#firstname {
+	margin-top: -1px;
+} 
+#lastname {
+	margin-top: -27px;
+	margin-left: 177px;
+}
+#lname {
+	margin-left: 1px;
+}
